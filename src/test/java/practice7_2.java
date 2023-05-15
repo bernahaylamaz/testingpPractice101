@@ -9,11 +9,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
-import utilities.testBase;
+import utilities.TestBase;
+
 
 import java.time.Duration;
 
-public class practice7_2 extends testBase {
+public class practice7_2 extends TestBase {
 
     @Test
     public void contextClickMethod() {

@@ -1,13 +1,14 @@
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
+import utilities.TestBase;
+
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class practice7_3 extends testBase {
+public class practice7_3 extends TestBase {
 
 @Test
     public void isExists(){

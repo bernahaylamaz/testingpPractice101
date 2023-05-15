@@ -5,13 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import utilities.testBase;
+import utilities.TestBase;
+
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-public class practice8_1 extends testBase {
+public class practice8_1 extends TestBase {
     /*
      * 1. How do you take screenshot ? How do you automate taking screenshot in your current project?
      * -I use getScreenshotAs method
